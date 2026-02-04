@@ -7,7 +7,7 @@ public class ClienteVelha {
     public static void main(String[] args) throws Exception {
 
         //IP DO COMPUTADOR ONDE O SERVIDOR ESTÁ RODANDO
-        String ipServidor = "192.168.0.203"; // MUDE AQUI!!!!!
+        String ipServidor = "000.000.0.00"; // MUDE AQUI!!!!!
 
         Socket socket = new Socket(ipServidor, 12345);
         System.out.println("Conectado ao servidor!");
