@@ -34,7 +34,9 @@ public class ServidorVelha {
 
                     board[row][col] = 'X';
                     saida.println(row + " " + col);
+
                     mostrar(board);
+
                     if (venceu(board, 'X')) { mostrar(board); System.out.println("Você venceu!"); break; }
                     if (empate(board)) { mostrar(board); System.out.println("Empate!"); break; }
 
@@ -68,6 +70,7 @@ public class ServidorVelha {
             System.out.println();
             if (i < 2) System.out.println("   ------------");
         }
+        System.out.flush();
     }
 
     static boolean invalida(char[][] b, int r, int c) {
