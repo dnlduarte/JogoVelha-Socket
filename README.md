@@ -18,7 +18,7 @@ Este projeto foi criado com fins educacionais, com o objetivo de praticar Java..
 
 ## 🧠 Como funciona
 
-- O **Servidor** inicia primeiro e fica aguardando ac conexão do cliente.
+- O **Servidor** inicia primeiro e fica aguardando a conexão do cliente.
 - O **Cliente** se conecta ao servidor via IP e porta.
 - Cada jogador faz sua jogada alternadamente pelo terminal/CMD.
 - O servidor controla o fluxo do jogo e envia as jogadas ao cliente.
@@ -29,12 +29,17 @@ Este projeto foi criado com fins educacionais, com o objetivo de praticar Java..
 
 - **IP do Servidor**  
   Antes de executar o cliente, alterar o endereço IP do servidor no arquivo:
-  ClienteVelha.java
+  `ClienteVelha.java`
+
+  Exemplo:
+   ```java
+   String ipServidor = "000.000.0.00";
 
   ### 🔹 Pré-requisitos
 - Java JDK atualizado
 - Maven (gerar `.jar`)
 - Dois terminais/dois computadores
+- Conexão em rede entre cliente e servidor
 
 ---
 
