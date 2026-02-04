@@ -6,7 +6,10 @@ public class ClienteVelha {
 
     public static void main(String[] args) throws Exception {
 
-        Socket socket = new Socket("localhost", 12345);
+        //IP DO COMPUTADOR ONDE O SERVIDOR ESTÁ RODANDO
+        String ipServidor = "192.168.0.203"; // MUDE AQUI!!!!!
+
+        Socket socket = new Socket(ipServidor, 12345);
         System.out.println("Conectado ao servidor!");
 
         Scanner entrada = new Scanner(socket.getInputStream());
