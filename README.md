@@ -35,7 +35,7 @@ Este projeto foi criado com fins educacionais, com o objetivo de praticar Java..
    ```java
    String ipServidor = "000.000.0.00";
 
-  ### 🔹 Pré-requisitos
+### 🔹 Pré-requisitos
 - Java JDK atualizado
 - Maven (gerar `.jar`)
 - Dois terminais/dois computadores
